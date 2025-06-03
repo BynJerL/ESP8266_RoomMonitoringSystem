@@ -16,5 +16,10 @@ void setup() {
 }
 
 void loop() {
-  
+  lcd.setCursor(0, 0);
+  lcd.clear();
+  for (int i = 0; i < 3; i++) {
+    lcd.print(".");
+    delay(1500);
+  }
 }
