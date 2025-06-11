@@ -13,6 +13,7 @@ void setup() {
   lcd.backlight();
   lcd.setCursor(0, 0);
   lcd.print("Hello World!");
+  delay(1000);
 }
 
 void loop() {
