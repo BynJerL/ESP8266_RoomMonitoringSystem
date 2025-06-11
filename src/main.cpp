@@ -29,6 +29,6 @@ void loop() {
   lcd.print(lux);
   Serial.print("Light: ");
   Serial.println(lux);
-  lcd.println(" lx");
+  lcd.print(" lx");
   delay(1500);
 }
